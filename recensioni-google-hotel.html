@@ -37,225 +37,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://acquistare-recensioni.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Recensioni Google Hotel", "item": "https://acquistare-recensioni.com/recensioni-google-hotel.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acquistare Recensioni",
-        "url": "https://acquistare-recensioni.com",
-        "logo": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "I nostri servizi",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acquisto Recensioni Google Hotel",
-                        "url": "https://acquistare-recensioni.com/recensioni-google-hotel.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://acquistare-recensioni.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Recensioni Google Hotel",
+                        "item": "https://acquistare-recensioni.com/recensioni-google-hotel.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Le recensioni Google per hotel menzionano le camere e il servizio?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Si, ogni recensione e redatta su misura menzionando la pulizia delle camere, la qualita dell'accoglienza, la colazione, la posizione e il comfort generale del vostro hotel."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quante recensioni Google deve avere un hotel per ispirare fiducia?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Un hotel ha bisogno di almeno 50-100 recensioni per apparire credibile. I viaggiatori confrontano sistematicamente diversi hotel e privilegiano quelli con il maggior numero di recensioni positive."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Le recensioni Google sono importanti quanto Booking o TripAdvisor?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Assolutamente. Google e diventato la prima piattaforma consultata prima di una prenotazione. Molti viaggiatori verificano la valutazione Google anche quando prenotano tramite altre piattaforme."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Si possono acquistare recensioni Google per piu hotel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Si, gestiamo ordini multi-struttura. Contattateci tramite WhatsApp dopo il vostro ordine per indicare le diverse schede Google da targetizzare."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Le Nostre Offerte Recensioni Positive",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Recensioni Positive + 5 in omaggio",
-                    "description": "Pacchetto di 25 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
+                "@type": "Organization",
+                "name": "Acquistare Recensioni",
+                "url": "https://acquistare-recensioni.com",
+                "logo": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "I nostri servizi",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acquisto recensioni google hotel",
+                                "url": "https://acquistare-recensioni.com/recensioni-google-hotel.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Le recensioni Google per hotel menzionano le camere e il servizio?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Si, ogni recensione e redatta su misura menzionando la pulizia delle camere, la qualita dell'accoglienza, la colazione, la posizione e il comfort generale del vostro hotel."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quante recensioni Google deve avere un hotel per ispirare fiducia?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Un hotel ha bisogno di almeno 50-100 recensioni per apparire credibile. I viaggiatori confrontano sistematicamente diversi hotel e privilegiano quelli con il maggior numero di recensioni positive."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Le recensioni Google sono importanti quanto Booking o TripAdvisor?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Assolutamente. Google e diventato la prima piattaforma consultata prima di una prenotazione. Molti viaggiatori verificano la valutazione Google anche quando prenotano tramite altre piattaforme."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Si possono acquistare recensioni Google per piu hotel?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Si, gestiamo ordini multi-struttura. Contattateci tramite WhatsApp dopo il vostro ordine per indicare le diverse schede Google da targetizzare."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Recensioni Positive + 10 in omaggio",
-                    "description": "Pacchetto di 50 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Le Nostre Offerte Recensioni Positive",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Recensioni Positive + 5 in omaggio",
+                            "description": "Pacchetto di 25 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Recensioni Positive + 10 in omaggio",
+                            "description": "Pacchetto di 50 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Recensioni Positive + 20 in omaggio",
+                            "description": "Pacchetto di 100 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Recensioni Positive + 20 in omaggio",
-                    "description": "Pacchetto di 100 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }

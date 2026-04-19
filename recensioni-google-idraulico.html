@@ -36,225 +36,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://acquistare-recensioni.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Recensioni Google Idraulico", "item": "https://acquistare-recensioni.com/recensioni-google-idraulico.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acquistare Recensioni",
-        "url": "https://acquistare-recensioni.com",
-        "logo": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "I nostri servizi",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acquisto Recensioni Google Idraulico",
-                        "url": "https://acquistare-recensioni.com/recensioni-google-idraulico.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://acquistare-recensioni.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Recensioni Google Idraulico",
+                        "item": "https://acquistare-recensioni.com/recensioni-google-idraulico.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Le recensioni menzionano interventi idraulici specifici?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Si, le nostre recensioni evocano situazioni reali: riparazione di perdite, installazione di scaldabagno, disostruzione di tubature. Ogni recensione e adattata ai servizi che offrite."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quante recensioni servono per un idraulico indipendente?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Un pacchetto da 25 a 50 recensioni e generalmente sufficiente per dominare la vostra zona geografica. Gli idraulici hanno spesso poche recensioni, il che vi permette di distinguervi rapidamente."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Le recensioni aiutano ad apparire nel pack locale di Google?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Assolutamente. Il numero e la qualita delle recensioni sono tra i principali fattori di posizionamento nel pack locale di Google. Piu recensioni positive avete, piu la vostra scheda sale."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Si possono targettizzare le recensioni per una zona geografica precisa?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Si, i nostri account sono geolocalizzati in Italia e possiamo adattare le recensioni per menzionare la vostra citta o la vostra zona di intervento per rafforzare il vostro radicamento locale."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Le Nostre Offerte Recensioni Positive",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Recensioni Positive + 5 in omaggio",
-                    "description": "Pacchetto di 25 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
+                "@type": "Organization",
+                "name": "Acquistare Recensioni",
+                "url": "https://acquistare-recensioni.com",
+                "logo": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "I nostri servizi",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acquisto recensioni google idraulico",
+                                "url": "https://acquistare-recensioni.com/recensioni-google-idraulico.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Le recensioni menzionano interventi idraulici specifici?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Si, le nostre recensioni evocano situazioni reali: riparazione di perdite, installazione di scaldabagno, disostruzione di tubature. Ogni recensione e adattata ai servizi che offrite."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quante recensioni servono per un idraulico indipendente?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Un pacchetto da 25 a 50 recensioni e generalmente sufficiente per dominare la vostra zona geografica. Gli idraulici hanno spesso poche recensioni, il che vi permette di distinguervi rapidamente."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Le recensioni aiutano ad apparire nel pack locale di Google?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Assolutamente. Il numero e la qualita delle recensioni sono tra i principali fattori di posizionamento nel pack locale di Google. Piu recensioni positive avete, piu la vostra scheda sale."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Si possono targettizzare le recensioni per una zona geografica precisa?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Si, i nostri account sono geolocalizzati in Italia e possiamo adattare le recensioni per menzionare la vostra citta o la vostra zona di intervento per rafforzare il vostro radicamento locale."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Recensioni Positive + 10 in omaggio",
-                    "description": "Pacchetto di 50 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Le Nostre Offerte Recensioni Positive",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Recensioni Positive + 5 in omaggio",
+                            "description": "Pacchetto di 25 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Recensioni Positive + 10 in omaggio",
+                            "description": "Pacchetto di 50 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Recensioni Positive + 20 in omaggio",
+                            "description": "Pacchetto di 100 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Recensioni Positive + 20 in omaggio",
-                    "description": "Pacchetto di 100 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }

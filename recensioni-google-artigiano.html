@@ -36,225 +36,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://acquistare-recensioni.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Recensioni Google Artigiano", "item": "https://acquistare-recensioni.com/recensioni-google-artigiano.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acquistare Recensioni",
-        "url": "https://acquistare-recensioni.com",
-        "logo": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "I nostri servizi",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acquisto Recensioni Google Artigiano",
-                        "url": "https://acquistare-recensioni.com/recensioni-google-artigiano.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://acquistare-recensioni.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Recensioni Google Artigiano",
+                        "item": "https://acquistare-recensioni.com/recensioni-google-artigiano.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Le recensioni menzionano specifici mestieri artigianali?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "S&igrave;, ogni recensione &egrave; redatta in base alla vostra specialit&agrave; artigianale. Che siate muratori, falegnami, piastrellisti o imbianchini, le testimonianze descrivono prestazioni coerenti con il vostro mestiere e la vostra competenza."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quante recensioni deve avere un artigiano per ispirare fiducia?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tra 25 e 50 recensioni bastano per consolidare la vostra credibilit&agrave;. La maggior parte degli artigiani locali ha solo poche recensioni, il che vi offre l'opportunit&agrave; di distinguervi rapidamente nel vostro settore geografico."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Le recensioni possono evocare la qualit&agrave; delle finiture e dei materiali?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Assolutamente. I nostri redattori integrano dettagli sulla qualit&agrave; delle vostre finiture, la cura dedicata al cantiere e la scelta dei materiali. Questi elementi concreti rafforzano la credibilit&agrave; di ogni testimonianza."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Le recensioni aiutano un artigiano a ottenere pi&ugrave; preventivi?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "S&igrave;, una scheda Google ben valutata genera significativamente pi&ugrave; richieste di preventivo. I privati contattano prioritariamente gli artigiani che mostrano una valutazione alta e feedback dettagliati sulle loro prestazioni."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Le Nostre Offerte Recensioni Positive",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Recensioni Positive + 5 in omaggio",
-                    "description": "Pacchetto di 25 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
+                "@type": "Organization",
+                "name": "Acquistare Recensioni",
+                "url": "https://acquistare-recensioni.com",
+                "logo": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "I nostri servizi",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acquisto recensioni google artigiano",
+                                "url": "https://acquistare-recensioni.com/recensioni-google-artigiano.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Le recensioni menzionano specifici mestieri artigianali?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "S&igrave;, ogni recensione &egrave; redatta in base alla vostra specialit&agrave; artigianale. Che siate muratori, falegnami, piastrellisti o imbianchini, le testimonianze descrivono prestazioni coerenti con il vostro mestiere e la vostra competenza."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quante recensioni deve avere un artigiano per ispirare fiducia?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tra 25 e 50 recensioni bastano per consolidare la vostra credibilit&agrave;. La maggior parte degli artigiani locali ha solo poche recensioni, il che vi offre l'opportunit&agrave; di distinguervi rapidamente nel vostro settore geografico."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Le recensioni possono evocare la qualit&agrave; delle finiture e dei materiali?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Assolutamente. I nostri redattori integrano dettagli sulla qualit&agrave; delle vostre finiture, la cura dedicata al cantiere e la scelta dei materiali. Questi elementi concreti rafforzano la credibilit&agrave; di ogni testimonianza."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Le recensioni aiutano un artigiano a ottenere pi&ugrave; preventivi?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "S&igrave;, una scheda Google ben valutata genera significativamente pi&ugrave; richieste di preventivo. I privati contattano prioritariamente gli artigiani che mostrano una valutazione alta e feedback dettagliati sulle loro prestazioni."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Recensioni Positive + 10 in omaggio",
-                    "description": "Pacchetto di 50 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Le Nostre Offerte Recensioni Positive",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Recensioni Positive + 5 in omaggio",
+                            "description": "Pacchetto di 25 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Recensioni Positive + 10 in omaggio",
+                            "description": "Pacchetto di 50 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Recensioni Positive + 20 in omaggio",
+                            "description": "Pacchetto di 100 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
+                            "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "IT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "IT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Recensioni Positive + 20 in omaggio",
-                    "description": "Pacchetto di 100 recensioni Google positive con account italiani, testi personalizzati, garanzia a vita e servizio clienti 24/7.",
-                    "image": "https://acquistare-recensioni.com/acquistare-recensioni-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "IT"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "IT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }
