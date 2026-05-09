@@ -1,0 +1,49 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -rl \"acheter-avis-google\\\\.\\\\|avis-market-logo\\\\.\\\\|fiche-google-my-business\\\\.\\\\|temoignage-avis-google\\\\.\\\\|icon-google\\\\.\\\\|avis-google-entreprise\\\\.\" *.html)",
+      "Bash(grep -rl \"achat-avis-google-fiable\\\\.html\\\\|achat-avis-google-pas-cher\\\\.html\\\\|acheter-avis-google-5-etoiles\\\\.html\\\\|acheter-avis-google-positifs\\\\.html\\\\|acheter-avis-negatif-google\\\\.html\\\\|supprimer-avis-google\\\\.html\\\\|faux-avis-google\\\\.html\\\\|booster-avis-google\\\\.html\\\\|ameliorer-note-google\\\\.html\\\\|avis-google-restaurant\\\\.html\\\\|avis-google-plombier\\\\.html\" *.html)",
+      "Bash(grep -rn 'lang=\"fr\"' *.html)",
+      "Bash(grep -rn 'hreflang=\"fr' *.html)",
+      "Bash(grep -rn 'fr_FR' *.html)",
+      "Bash(grep -rn 'avis-market\\\\.fr' *.html)",
+      "Bash(grep -rn '\"France\"' *.html)",
+      "Bash(grep -rn 'acheter-avis-google\\\\.png\\\\|avis-market-logo\\\\.png\\\\|fiche-google-my-business\\\\.webp\\\\|temoignage-avis-google\\\\|icon-google\\\\.png\\\\|avis-google-entreprise\\\\.webp\\\\|avis-google\\\\.png' *.html)",
+      "Bash(grep -rn 'achat-avis-google-fiable\\\\.html\\\\|achat-avis-google-pas-cher\\\\.html\\\\|acheter-avis-google-5-etoiles\\\\.html\\\\|acheter-avis-google-my-business\\\\.html\\\\|acheter-avis-google-positifs\\\\.html\\\\|acheter-avis-negatif-google\\\\.html\\\\|acheter-vrais-avis-google\\\\.html\\\\|ameliorer-note-google\\\\.html\\\\|avis-google-agence-immobiliere\\\\.html\\\\|avis-google-artisan\\\\.html\\\\|avis-google-avocat\\\\.html\\\\|avis-google-couvreur\\\\.html\\\\|avis-google-dentiste\\\\.html\\\\|avis-google-elagueur\\\\.html\\\\|avis-google-electricien\\\\.html\\\\|avis-google-entreprise\\\\.html\\\\|avis-google-garage-automobile\\\\.html\\\\|avis-google-hotel\\\\.html\\\\|avis-google-medecin\\\\.html\\\\|avis-google-paysagiste\\\\.html\\\\|avis-google-plombier\\\\.html\\\\|avis-google-restaurant\\\\.html\\\\|booster-avis-google\\\\.html\\\\|faux-avis-google\\\\.html\\\\|supprimer-avis-google\\\\.html' *.html sitemap.xml)",
+      "Bash(grep -rn 'rel=\"canonical\"' *.html)",
+      "Bash(grep -rn 'hreflang=' *.html)",
+      "Bash(grep -rn 'og:locale' *.html)",
+      "Read(//c/Users/Webpr/Desktop/E-Commerce_/Google_8/acquistare-recensioni.com/**)",
+      "Bash(grep -rn '>CGV<' *.html)",
+      "Bash(grep -n 'rel=\"canonical\"' *.html)",
+      "Read(//c/Users/Webpr/Desktop/E-Commerce_/Google_8/acquistare-recensioni.com/=== IMAGES WITHOUT WIDTH/**)",
+      "Bash(sed -i 's|<title>Potenziare Recensioni Google - Aumentare Valutazione Google Maps</title>|<title>Potenziare Recensioni Google \\\\| Da 99\\\\x€</title>|' potenziare-recensioni-google.html)",
+      "Bash(sed -i 's|<title>Recensioni Google Azienda - Comprare Recensioni Google Professionali</title>|<title>Recensioni Google Azienda \\\\| Comprare da 99€</title>|' recensioni-google-azienda.html)",
+      "Bash(sed -i 's|<title>Acquisto Recensioni Google Hotel - Comprare Recensioni Google Hotel</title>|<title>Recensioni Google Hotel \\\\| Comprare da 99€</title>|' recensioni-google-hotel.html)",
+      "Bash(sed -i 's|<title>Acquisto Recensioni Google Medico - Comprare Recensioni Google Medico</title>|<title>Recensioni Google Medico \\\\| Comprare da 99€</title>|' recensioni-google-medico.html)",
+      "Bash(sed -i 's|<title>Acquisto Recensioni Google Avvocato - Comprare Recensioni Google Avvocato</title>|<title>Recensioni Google Avvocato \\\\| Comprare da 99€</title>|' recensioni-google-avvocato.html)",
+      "Bash(sed -i 's|<title>Comprare Recensioni Google Positive - Acquisto Recensioni Google 5 Stelle</title>|<title>Comprare Recensioni Google Positive \\\\| Da 99€</title>|' comprare-recensioni-google-positive.html)",
+      "Bash(sed -i 's|<title>Comprare Recensioni Google 5 Stelle - Recensioni 5 Stelle Google</title>|<title>Recensioni Google 5 Stelle \\\\| Comprare da 99€</title>|' comprare-recensioni-google-5-stelle.html)",
+      "Bash(sed -i 's|<title>Comprare Recensioni Google My Business - Recensioni Google GMB</title>|<title>Recensioni Google My Business \\\\| Comprare da 99€</title>|' comprare-recensioni-google-my-business.html)",
+      "Bash(sed -i 's|<title>Comprare Vere Recensioni Google - Recensioni Google Autentiche</title>|<title>Comprare Vere Recensioni Google \\\\| Da 99€</title>|' comprare-vere-recensioni-google.html)",
+      "Bash(sed -i 's|<title>Acquisto Recensioni Negative Google - Recensioni Negative False Google</title>|<title>Comprare Recensioni Negative Google \\\\| Da 20€</title>|' comprare-recensioni-negative-google.html)",
+      "Bash(sed -i 's|<title>Acquistare Recensioni Google Artigiano - Comprare Recensioni Google Artigiano</title>|<title>Recensioni Google Artigiano \\\\| Comprare da 99€</title>|' recensioni-google-artigiano.html)",
+      "Bash(sed -i 's|<title>Acquisto Recensioni Google Copritetto - Comprare Recensioni Google Copritetto</title>|<title>Recensioni Google Copritetto \\\\| Comprare da 99€</title>|' recensioni-google-copritetto.html)",
+      "Bash(sed -i 's|<title>Acquistare Recensioni Google Dentista - Comprare Recensioni Google Dentista</title>|<title>Recensioni Google Dentista \\\\| Comprare da 99€</title>|' recensioni-google-dentista.html)",
+      "Bash(sed -i 's|<title>Acquistare Recensioni Google Elettricista - Comprare Recensioni Google Elettricista</title>|<title>Recensioni Google Elettricista \\\\| Da 99€</title>|' recensioni-google-elettricista.html)",
+      "Bash(sed -i 's|<title>Acquistare Recensioni Google Officina Meccanica - Comprare Recensioni Google Officina Auto</title>|<title>Recensioni Google Officina Meccanica \\\\| Da 99€</title>|' recensioni-google-officina-meccanica.html)",
+      "Bash(grep -c 'lang=\"it\"' *.html)",
+      "Bash(grep -c 'hreflang=\"it-IT\"' *.html)",
+      "Bash(grep -c 'og:locale.*it_IT' *.html)",
+      "Bash(grep -c '\"IT\"' *.html)",
+      "Bash(wc -l echo \"Reste de FR:\" grep -rn '\"FR\"' *.html)",
+      "Bash(head -5 echo \"Reste de France:\" grep -rn '\"France\"' *.html)",
+      "Bash(grep -rc 'avis-market\\\\.fr' *.html)",
+      "Bash(grep -rc 'recensie-kopen\\\\.nl' *.html sitemap.xml robots.txt CNAME)",
+      "Bash(wc -l echo \"Drapeaux IT HTML entities:\" grep -c '127470' *.html)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Webpr\\Desktop\\E-Commerce_\\Google_8\\acquistare-recensioni.com"
+    ]
+  }
+}
